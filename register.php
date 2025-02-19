@@ -102,7 +102,7 @@ if(isset($_POST['Submit'])){
 <body>
     <div class="container">
         <h2>Register</h2>
-        <form action="new.php" method="POST">
+        <form action="register.php" method="POST">
             Nama: <input type="text" name="name" required><br>
             Password: <input type="password" name="age" required><br>
             <label for="alert" class="warn">*Password hanya bisa diisi angka</label>
